@@ -19,6 +19,11 @@ BuildRequires:  gettext
 BuildRequires:  glib2-devel
 BuildRequires:  python3-devel
 
+# Post-install and validation tools
+BuildRequires:  gtk-update-icon-cache
+BuildRequires:  desktop-file-utils
+BuildRequires:  libappstream-glib
+
 # Runtime requirements
 Requires:       python3
 Requires:       gtk4
