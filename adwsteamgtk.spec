@@ -47,9 +47,9 @@ An installer and updater for the Adwaita Steam theme.
 %install
 %meson_install
 # The meson file explicitly imports i18n and includes a 'po' directory
-%find_lang AdwSteamGtk
+%find_lang adwaita-steam-gtk
 
-%files -f AdwSteamGtk.lang
+%files -f adwaita-steam-gtk.lang
 %{_bindir}/adwaita-steam-gtk
 %{_datadir}/adwaita-steam-gtk/
 %{_datadir}/applications/io.github.Foldex.AdwSteamGtk.desktop
