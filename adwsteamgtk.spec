@@ -10,7 +10,6 @@ URL:            https://github.com/Foldex/AdwSteamGtk
 Source0:        %{url}/archive/main/AdwSteamGtk-main.tar.gz
 
 BuildArch:      noarch
-
 # Core build requirements based on the meson.build file
 BuildRequires:  meson >= 0.59.0
 BuildRequires:  ninja-build
@@ -18,6 +17,11 @@ BuildRequires:  blueprint-compiler
 BuildRequires:  gettext
 BuildRequires:  glib2-devel
 BuildRequires:  python3-devel
+
+# UI Template and Introspection requirements
+BuildRequires:  gobject-introspection-devel
+BuildRequires:  gtk4-devel
+BuildRequires:  libadwaita-devel
 
 # Post-install and validation tools
 BuildRequires:  gtk-update-icon-cache
