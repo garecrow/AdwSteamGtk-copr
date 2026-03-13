@@ -55,7 +55,7 @@ An installer and updater for the Adwaita Steam theme.
 %{_datadir}/applications/io.github.Foldex.AdwSteamGtk.desktop
 %{_datadir}/icons/hicolor/*/apps/io.github.Foldex.AdwSteamGtk*.svg
 %{_datadir}/glib-2.0/schemas/io.github.Foldex.AdwSteamGtk.gschema.xml
-%{_datadir}/metainfo/io.github.Foldex.AdwSteamGtk.appdata.xml
+%{_datadir}/appdata/io.github.Foldex.AdwSteamGtk.appdata.xml
 
 %changelog
 %autochangelog
